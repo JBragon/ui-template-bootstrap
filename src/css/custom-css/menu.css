@@ -1,0 +1,389 @@
+.custom-navbar {
+    background-color: #f04923!important;
+}
+
+@font-face{
+    font-family: 'Moderat';
+    src: url(../fontes/font/Moderat-Black.ttf);
+}
+
+@font-face{
+    font-family: 'recoleta';
+    src: url(../fontes/recoleta/Recoleta-RegularDEMO.otf);
+}
+
+body{
+    font-family: Moderat, sans-serif;
+    background: #f1f1de;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+principal{
+    margin: 0;
+}
+
+.hero{
+    background-color: #f04923;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    height: 55px;  
+    z-index: 1;
+    border-radius: 0px 0px 30px 0px;
+    border: 1px solid transparent;
+}
+
+.hero nav{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 33%;
+    height: 55px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.hero nav ul li{
+    list-style: none;
+    font-family: Moderat;
+    font-size: 100%;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+
+.hero nav ul li .l1{
+    position: fixed;
+    top: 20px;
+}
+
+.hero nav ul li .l2{
+    position: fixed;
+    top: 20px;
+    left: 11%;
+}
+
+.hero nav ul li .l3{
+    position: fixed;
+    top: 20px;
+    left: 18.5%;
+}
+
+.hero nav a:link, .hero nav a:visited{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover, .hero nav a:active{
+    text-decoration: none;
+    color: #f1f1de;
+    text-transform: uppercase;
+}
+
+.hero-content{
+    position: fixed;
+    left: 33%;
+    width: 33%; 
+    /* padding-top: 7px; */
+    text-align: center;
+    z-index: 2;
+}
+
+.hero .botao-compra{
+    background-color: #f1f1de;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 40px;
+    margin-top: 12px;
+    position: fixed;
+    right: 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.hero div a:link, .hero div a:visited{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+.hero div a:hover, .hero div a:active{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+/*******************************************************************/
+
+.fundo-slogan{
+    background-image: url(../imagens/WhatsApp%20Image%202021-06-01%20at%2016.25.21.jpeg);
+    height: 500px;
+    background-position: center bottom;
+    background-size: cover;     
+    border: 1px solid transparent;
+}
+
+.slogan{
+    text-align: center;
+    color: #f1f1de; 
+}
+
+.slogan h1{
+    font-family: recoleta;
+    font-weight: bold;
+    font-size: 70px;
+    padding-top: 150px;
+}
+
+.content-section{
+    background-color: #f1f1de;
+    margin: auto;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border: 1px solid transparent;
+}
+
+.apresentacao{
+    text-align: center;
+    font-family: Moderat;
+    padding-top: 3%;
+    font-size: 20px;
+    
+}
+
+.apresentacao p{
+    margin: 0.2%;
+}
+
+b{
+    color: #f04923;
+}
+
+main section .botao-compra-2{
+    width: 230px;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-color: #f04923;
+    border-style:solid;
+    border-width: 3px; 
+    border-radius: 5px;
+}
+
+main section .botao-compra-2 a:link, main section .botao-compra-2 a:visited{
+    text-transform: uppercase;
+    color: #f04923;
+    text-decoration: none;
+}
+
+main section .botao-compra-2 a:active, main section .botao-compra-2 a:hover{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+/*************************************************************/
+
+main .pag_2{
+    background-image: url(../imagens/WhatsApp%20Image%202021-06-01%20at%2016.26.10.jpeg);
+    height: 800px;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    border: 1px solid transparent;
+}
+
+main .pag_2 p{
+    color: #f1f1de;
+}
+
+main .pag_2 h1{
+    font-size: 56px;
+    font-family: recoleta;
+    color: #f1f1de;
+    text-align: justify-all;
+    
+}
+
+main section .titulo{
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    width: 33%;
+}
+
+main section .texto-meio{
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    width: 30%;
+}
+
+main section .texto-canto{
+    position: absolute;
+    top: 100px;
+    right: 4%;
+    width: 30%;
+}
+
+/**********************************************************************/
+main .pag_3{
+    background-image: url(../imagens/WhatsApp%20Image%202021-06-01%20at%2016.28.14.jpeg);
+    height: 900px;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    border: 1px solid transparent;
+}
+
+main .pag_3 div h1{
+    color: #f1f1de;
+    font-size: 56px;
+    font-family: recoleta;
+    text-align: justify-all;
+    position: absolute;
+    left: 10%;
+    top: 90px;
+}
+
+main .pag_3 div h2{
+    color: #f1f1de;
+    font-family: recoleta;
+    text-align: justify-all;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 70%;
+    position: absolute;
+    left: 10%;
+    top: 250px;
+}
+
+main .pag_3 div p{
+    color: #f1f1de;
+    text-align: justify-all;
+    width: 45%;
+}
+
+main div #paragrafo_01{
+    position: absolute;
+    left: 10%;
+    top: 320px;
+}
+
+main div #paragrafo_02{
+    position: absolute;
+    left: 10%;
+    top: 400px;
+}
+
+main div #paragrafo_03{
+    position: absolute;
+    left: 10%;
+    top: 510px;
+}
+
+main div #slogan-final{
+    position: absolute;
+    left: 10%;
+    top: 550px;
+    text-transform: uppercase;
+}
+
+/**********************************************************************/
+main .pag_4{
+    background-image: url(../imagens/WhatsApp%20Image%202021-06-01%20at%2016.31.33.jpeg);
+    height: 800px;
+    width: 100%;
+    background-position: top right;
+    background-size: cover;
+    border: 1px solid transparent;
+}
+
+main .pag_4 .fundo{
+    width: 60%;
+    height: 630px;
+    background-color: #50c0af;
+    border-radius: 0px 0px 15px 0px;
+    position: relative;
+}
+
+main .pag_4 div h1{
+    color: balck;
+    font-size: 56px;
+    font-family: recoleta;
+    padding-top: 80px;
+    padding-left: 160px;;
+    
+}
+
+main .pag_4 div p{
+    color: #f1f1de;
+    font-family: recoleta;
+    font-size: 25px;
+    padding-top: 0px;
+    padding-left: 160px;
+    
+}
+
+main .pag_4 div ul{
+    color: #f04923;
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 160px;
+}
+
+main .pag_4 div ul li{
+    background-color: #f1f1de;
+    margin-top: 25px;
+    padding: 10px 0px 10px 30px;
+    width: 75%;
+    border-radius: 50px;
+}
+
+main .pag_4 .botao-enviar{
+    position: absolute;
+    right: 170px;
+    bottom: 130px;
+    border: 2px solid #f1f1de;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+#enviar:link, #enviar:hover, #enviar:visited, #enviar:active{
+    color: #f1f1de;
+    text-decoration: none;
+    
+}
+
+/**********************************************************************/
+footer{
+    background-color: #6a6d6f;
+    height: 80px;
+    border: 1px solid transparent;
+}
+
+footer p{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    line-height: 50px;
+    text-shadow: 2px 2px 3px #343333;
+}
