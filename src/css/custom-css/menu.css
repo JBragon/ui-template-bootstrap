@@ -4,12 +4,12 @@
 
 @font-face{
     font-family: 'Moderat';
-    src: url(../fontes/font/Moderat-Black.ttf);
+    src: url(../../fontes/font/Moderat-Black.ttf);
 }
 
 @font-face{
     font-family: 'recoleta';
-    src: url(../fontes/recoleta/Recoleta-RegularDEMO.otf);
+    src: url(../../fontes/recoleta/Recoleta-RegularDEMO.otf);
 }
 
 body{
@@ -98,7 +98,7 @@ principal{
     padding-bottom: 5px;
     padding-top: 5px;
     margin-right: 40px;
-    margin-top: 12px;
+    /* margin-top: 12px; */
     position: fixed;
     right: 0px;
     box-sizing: border-box;
@@ -126,7 +126,7 @@ principal{
 /*******************************************************************/
 
 .fundo-slogan{
-    background-image: url(../imagens/WhatsApp%20Image%202021-06-01%20at%2016.25.21.jpeg);
+    background-image: url(../../imagens/WhatsApp%20Image%202021-06-01%20at%2016.25.21.jpeg);
     height: 500px;
     background-position: center bottom;
     background-size: cover;     
@@ -198,7 +198,7 @@ main section .botao-compra-2 a:active, main section .botao-compra-2 a:hover{
 /*************************************************************/
 
 main .pag_2{
-    background-image: url(../imagens/WhatsApp%20Image%202021-06-01%20at%2016.26.10.jpeg);
+    background-image: url(../../imagens/WhatsApp%20Image%202021-06-01%20at%2016.26.10.jpeg);
     height: 800px;
     width: 100%;
     background-position: top;
@@ -243,7 +243,7 @@ main section .texto-canto{
 
 /**********************************************************************/
 main .pag_3{
-    background-image: url(../imagens/WhatsApp%20Image%202021-06-01%20at%2016.28.14.jpeg);
+    background-image: url(../../imagens/WhatsApp%20Image%202021-06-01%20at%2016.28.14.jpeg);
     height: 900px;
     width: 100%;
     background-position: top;
@@ -308,7 +308,7 @@ main div #slogan-final{
 
 /**********************************************************************/
 main .pag_4{
-    background-image: url(../imagens/WhatsApp%20Image%202021-06-01%20at%2016.31.33.jpeg);
+    background-image: url(../../imagens/WhatsApp%20Image%202021-06-01%20at%2016.31.33.jpeg);
     height: 800px;
     width: 100%;
     background-position: top right;
